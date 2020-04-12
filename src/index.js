@@ -6,7 +6,6 @@ Promise.all([
   System.import('ui/one.js'),
 ])
   .then(([React, ReactDOM, { default: UiComponent }]) => {
-    window.React = React
     ReactDOM.render(
       <>
         <UiComponent />
